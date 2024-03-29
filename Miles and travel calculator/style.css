@@ -1,0 +1,71 @@
+/* CSS existente */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start; /* Alinhamento à esquerda */
+    align-items: center;
+    height: 100vh;
+    background-color: #1e3799; /* Azul escuro */
+    color: #fff; /* Cor do texto */
+}
+
+.calculator-wrapper {
+    margin-left: 20px; /* Adiciona um espaçamento à esquerda */
+}
+
+.calculator-container {
+    background-color: #2c3e50; /* Cor de fundo da calculadora */
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px; /* Ajuste conforme necessário */
+}
+
+.calc-row {
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+    flex: 1; /* Ocupa o espaço disponível */
+}
+
+input[type="number"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100px; /* Ajusta a largura conforme necessário */
+}
+
+.calc-row {
+    margin-bottom: 10px;
+    display: flex; /* Altera o layout para flexbox */
+    align-items: center; /* Alinha os itens verticalmente */
+}
+
+span {
+    padding: 8px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3498db; /* Cor do botão */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9; /* Cor do botão ao passar o mouse */
+}
+
+/* CSS para estilizar as novas colunas */
+.calc-title {
+    font-size: 1.2em; /* Ajusta o tamanho da fonte do título */
+    font-weight: bold; /* Torna o título em negrito */
+    margin-top: 20px; /* Adiciona um espaço superior para separar o título das outras colunas */
+}
